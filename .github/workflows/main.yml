@@ -5,10 +5,14 @@ on:
   workflow_dispatch:
     inputs:
       code:
-        description: 'Put Powershell code from crd website'
-        required: true
-      runtime:
-        type: choice
+        description: 'DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0ATx3LY5fSVAaOeVd88QOHlp5ZTSyHX1iiNO2yY45AbHDxZ-pigHvc3jKM6WbHtyasxDPhA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)'
+      
+        required: 
+    
+    
+      runtime: 2
+        type: 2
+      
         options:
         - 1 
         - 2
